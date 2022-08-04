@@ -20,7 +20,7 @@ public class CheckoutController {
         checkoutService.add(items);
     }
 
-    @GetMapping(path = "/get", headers = "Accept=application/json")
+    @GetMapping(path = "/get")
     public List<Item> getItems(){
         return checkoutService.getCart();
     }
