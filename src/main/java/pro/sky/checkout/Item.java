@@ -1,5 +1,4 @@
 package pro.sky.checkout;
-
 public class Item {
     private Integer id;
 

@@ -1,6 +1,5 @@
 package pro.sky.checkout;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 import java.util.ArrayList;
